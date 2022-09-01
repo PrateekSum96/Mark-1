@@ -25,7 +25,7 @@ var game = [
   {question : "What is my favorite Sport?",
    answer : "cricket" 
   },
-  {question : "Name a favorite movie",
+  {question : "Name one of my favorite movie?",
    answer : "the terminal" 
   },
   {question : "Who is my favorite Indian SUPERHERO?",
