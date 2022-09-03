@@ -1,6 +1,6 @@
 var readlineSync = require("readline-sync");
-var userName = readlineSync.question("What is your name?");
-console.log("Welcome "+userName+" to the game 'Do You Know Me??'");
+var userName = readlineSync.question("What is your name? ");
+console.log("Welcome "+userName+" to the game 'Do You Know Me??' ");
 var score = 0;
 
 function quiz(question,answer){
@@ -16,19 +16,19 @@ function quiz(question,answer){
 }
 
 var game = [
-  {question : "Where do I live?",
+  {question : "Where do I live? ",
    answer : "bihar" 
   },
-   {question : "Who is my favorite SUPERHERO?",
+   {question : "Who is my favorite SUPERHERO? ",
    answer : "deadpool" 
   },
-  {question : "What is my favorite Sport?",
+  {question : "What is my favorite Sport? ",
    answer : "cricket" 
   },
-  {question : "Name one of my favorite movie?",
+  {question : "Name one of my favorite movie? ",
    answer : "the terminal" 
   },
-  {question : "Who is my favorite Indian SUPERHERO?",
+  {question : "Who is my favorite Indian SUPERHERO? ",
    answer : "doga" 
   },
 ]
